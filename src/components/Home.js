@@ -1,16 +1,11 @@
 import React from "react";
 import "./Home.css";
 
-const redirect = () => {
-  window.location.href = "https://www.linkedin.com/in/jessica-mei-chin/";
-};
-
 function Home() {
   return (
     <div className="bodyBody">
       <div className="homeBody">
-        <div style={{ position: "sticky", top: "0", zIndex: "100" }}>
-          <div className="fullNavBar">
+          <div className="fullNavBarHome">
             <nav class="navbar navbar-expand-lg navbar-dark homeNav">
               <a class="navbar-brand" href="/">
                 <img
@@ -81,7 +76,6 @@ function Home() {
               </div>
             </nav>
           </div>
-        </div>
         <div className="textBody">
           <div className="textInfo">
             <h1>Jessica Mei Chin</h1>
@@ -96,7 +90,6 @@ function Home() {
               and human computer interaction. On the artistic side, I create
               illustrations, characters, designs, and animations.
             </p>
-            <br></br>
             <div className="socials">
               <a
                 className="linkedIn"
@@ -109,6 +102,7 @@ function Home() {
                 <i className="fab fa-github"></i>
               </a>
             </div>
+            <br></br>
           </div>
         </div>
       </div>

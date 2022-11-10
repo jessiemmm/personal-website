@@ -1,8 +1,9 @@
 .bodyBody {
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     background-size: cover;
     height: 100vh;
     width: 100vw;
+
 }
 .homeBody {
     background-image: url("../splash-art5.png");
@@ -12,16 +13,25 @@
     color: white;
     height: 100vh;
     width: 100vw;
-    font-family: 'VT323';
-   
+    font-family: 'VT323';  
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
 }
 
-.fullNavBar {
+.homeBody::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.fullNavBarHome {
     font-size: 20px;
-}
-
-.homeNav {
     background-color: rgb(36, 36, 36);
+    position: "sticky";
+    top: "0"; 
+    zIndex: "100";
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .textBody {
@@ -36,17 +46,20 @@
     padding-right: 10%;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
+    .fullNavBarHome {
+        padding: 0;
+        margin: 0;
+    }
     .textInfo {
         width: 100%;
-        padding-top: 40%;
+        padding-top: 30%;
         padding-left: 10%;
     }
 
     .linkedIn {
         padding-bottom: 10%;
     }
-    
 }
 
 #introText {
@@ -54,13 +67,8 @@
 }
 
 .socials {
-    position: absolute;
-    bottom: 0;
     padding-bottom: 5%;
     font-size: 30px;
-    text-align: center;
-    align-items: center;
-    align-content: center;
     color: white;
 }
 
@@ -78,8 +86,6 @@
 img {
     color: white;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .note {
