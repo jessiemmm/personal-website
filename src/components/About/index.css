@@ -8,6 +8,14 @@
     font-family: 'VT323';
 }
 
+@media (max-width: 600px) {
+    .text {
+        padding: 5%;
+        margin: 5%;
+    }
+}
+
+
 .me img {
     width: 100%;
 }
