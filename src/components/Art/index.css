@@ -4,6 +4,13 @@
     font-family: 'VT323';
 }
 
+@media (max-width: 600px) {
+    .bodyText {
+        padding: 5%;
+        margin: 5%;
+    }
+}
+
 .artElements {
     padding-top: 2%;
     display: flex;

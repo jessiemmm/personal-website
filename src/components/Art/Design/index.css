@@ -3,3 +3,14 @@
     padding-right: 25%;
     font-family: 'VT323';
 }
+
+@media (max-width: 600px) {
+    .designBody {
+        padding: 5%;
+        margin: 5%;
+    }
+}
+
+.wholeThing {
+    padding-bottom: 5%;
+}
