@@ -22,7 +22,7 @@ function ComputerScience() {
           moreFiles={[]}
           links=<p className="links">
             If you're curious, you can look at the Github repo{" "}
-            <a href="https://github.com/jessiemmm/catching-up">here.</a>
+            <a href="https://github.com/jessiemmm/personal-website">here.</a>
           </p>
         />
         <br></br>
@@ -32,14 +32,14 @@ function ComputerScience() {
           description="A fun trivia website made in collaboration with Jared Rudnicki using Javascript, React, and Node. Supports multiple types of users,
             such as moderators, general users, and guests. Also supports manually creating and answering trivia questions, as 
             well as generating random ones from an external API."
-          moreFiles={["/images/screenshots/jrivia1.JPG"]}
+          moreFiles={["/images/screenshots/jrivia1.JPG", "/images/screenshots/jrivia2.JPG"]}
           links=<p className="links">
             See the deployed website{" "}
             <a href="https://jrivia.herokuapp.com/">here!</a>
             <br></br>
             You can also check out the{" "}
-            <a href="https://jrivia.herokuapp.com/">main repo</a> and{" "}
-            <a href="https://jrivia.herokuapp.com/">node repo.</a>
+            <a href="https://github.com/jessiemmm/jrivia">main repo</a> and{" "}
+            <a href="https://github.com/jaredrudnicki/jrivia-node">node repo.</a>
           </p>
         />
         <br></br>
@@ -69,7 +69,7 @@ function ComputerScience() {
           ]}
           links=<p className="links">
             Click <a href="https://nostalgic-euler-5c026f.netlify.app/">here</a>{" "}
-            to see the deployed website.
+            to see the deployed website (Firefox only).
             <br></br>
             <p>
               Github repo can be found{" "}
