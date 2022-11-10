@@ -1,0 +1,30 @@
+.bodyText {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: 'VT323';
+}
+
+.artElements {
+    padding-top: 2%;
+    display: flex;
+    flex: 1;
+}
+
+.col-sm {
+    width: 100%;
+}
+
+.col-sm img{
+    opacity:1;
+    transition: 1s ease;
+}
+    
+.col-sm img:hover{
+    opacity:0.5;
+    transition: 0.5s ease;
+    }
+
+a, a:hover {
+    text-decoration: none;
+    color: black;
+  }

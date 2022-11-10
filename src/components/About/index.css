@@ -1,0 +1,45 @@
+.aboutPage {
+    padding-bottom: 5%;  
+}
+
+.text{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-family: 'VT323';
+}
+
+.me img {
+    width: 100%;
+}
+
+#me:hover {
+    opacity: 100%;
+}
+
+.italic {
+    font-style: italic;
+    display: inline;
+}
+
+.facts {
+    margin-top: 2vh;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.socialMedias {
+    font-size: 25px;
+    padding-top: 10px;
+    width: auto;
+}
+
+.email {
+    border: none;
+}
+
+.github, .linked {
+    float: right;
+    margin-right: 5px;
+}

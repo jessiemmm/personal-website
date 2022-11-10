@@ -1,0 +1,53 @@
+#imgShown {
+    height: auto;
+    width: 100%;
+}
+
+#imgShown:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+}
+
+p {
+    font-size: 20px;
+}
+
+.imgDisplay {
+    font-family: 'VT323';
+}
+
+.carousel-item img{
+      width: 100%;
+}
+
+
+.modal-dialog,
+.modal-content {
+    height: auto;
+}
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+
+.close{
+    position:absolute;
+    top:2%;
+    right:2%;
+    z-index:2;
+  }
+
+
+.titleInModal {
+    position:absolute;
+    top:2%;
+    left: 5%;
+    z-index: 3;
+    opacity: 70%;
+    font-family: 'VT323';
+    font-weight: 500;
+    color:black;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }

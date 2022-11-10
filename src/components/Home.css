@@ -1,0 +1,87 @@
+.bodyBody {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.homeBody {
+    background-image: url("../splash-art5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'VT323';
+   
+}
+
+.fullNavBar {
+    font-size: 20px;
+}
+
+.homeNav {
+    background-color: rgb(36, 36, 36);
+}
+
+.textBody {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+.textInfo {
+    width: 30%;
+    padding-right: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .textInfo {
+        width: 100%;
+        padding-top: 40%;
+        padding-left: 10%;
+    }
+
+    .linkedIn {
+        padding-bottom: 10%;
+    }
+    
+}
+
+#introText {
+    font-size: 20px;
+}
+
+.socials {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.linkedIn, .instagram {
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.linkedIn:hover, .instagram:hover {
+    color: white;
+}
+
+img {
+    color: white;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note {
+    font-size: 10px;
+}
