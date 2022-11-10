@@ -5,6 +5,7 @@ function Home() {
   return (
     <div className="bodyBody">
       <div className="homeBody">
+        <div style={{ position: "sticky", top: "0", zIndex: "100" }}>
           <div className="fullNavBarHome">
             <nav class="navbar navbar-expand-lg navbar-dark homeNav">
               <a class="navbar-brand" href="/">
@@ -76,6 +77,7 @@ function Home() {
               </div>
             </nav>
           </div>
+        </div>
         <div className="textBody">
           <div className="textInfo">
             <h1>Jessica Mei Chin</h1>

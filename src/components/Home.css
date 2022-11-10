@@ -27,9 +27,6 @@
 .fullNavBarHome {
     font-size: 20px;
     background-color: rgb(36, 36, 36);
-    position: "sticky";
-    top: "0"; 
-    zIndex: "100";
     padding-left: 15%;
     padding-right: 15%;
 }
