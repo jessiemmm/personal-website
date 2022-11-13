@@ -61,10 +61,10 @@ function Home() {
                         Design
                       </a>
                       <a class="dropdown-item" href="/illustration">
-                        Illustration/Character Design
+                        Illustration
                       </a>
                       <a class="dropdown-item" href="/animation">
-                        Animation
+                        Animation/Character Design
                       </a>
                     </div>
                   </li>
