@@ -64,7 +64,7 @@ function Home() {
                         Illustration
                       </a>
                       <a class="dropdown-item" href="/animation">
-                        Animation/Character Design
+                        Character Design/Animation
                       </a>
                     </div>
                   </li>
