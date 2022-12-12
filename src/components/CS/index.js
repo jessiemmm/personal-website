@@ -17,13 +17,9 @@ function ComputerScience() {
           filePath="/images/screenshots/mainWebsite.JPG"
           title="Personal Website (This One)"
           description="This site is made from scratch! (I also made the logo.) I first designed this website in Figma and then
-            utilized Javascript and React to code it. Feel free to navigate around the website to see each
+            utilized Javascript, React, and Bootstrap to code it. Feel free to navigate around the website to see each
             page :)"
           moreFiles={[]}
-          links=<p className="links">
-            If you're curious, you can look at the Github repo{" "}
-            <a href="https://github.com/jessiemmm/personal-website">here.</a>
-          </p>
         />
         <br></br>
         <ImageDisplay
@@ -92,9 +88,7 @@ function ComputerScience() {
           ]}
           links=<p className="links">
             See the deployed website{" "}
-            <a href="https://relaxed-bhabha-04906a.netlify.app/">here </a>
-            and the Github repo{" "}
-            <a href="https://github.com/jessiemmm/addiction-website">here.</a>
+            <a href="https://relaxed-bhabha-04906a.netlify.app/">here.</a>
           </p>
         />
         <br></br>
