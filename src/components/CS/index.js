@@ -44,9 +44,7 @@ function ComputerScience() {
           title="2.5D Game"
           description="Coded in C++ and utilizes OpenGL. Using some starter code, implemented a basic skybox and animation that corresponds to keys being
             pressed, as well as a capability to change the platform texture. Also implemented camera
-            movement to follow the character, zoom in/out of the scene and use the mouse to look around the environment.
-            Unfortunately, the repository is private due to this being a project for a Computer Graphics
-            class, but let me know if you'd like to see it and I can ask my professor!"
+            movement to follow the character, zoom in/out of the scene and use the mouse to look around the environment."
           moreFiles={[
             "/images/screenshots/graphics2.png",
             "/images/screenshots/screenshot3.png",
@@ -67,10 +65,6 @@ function ComputerScience() {
             Click <a href="https://nostalgic-euler-5c026f.netlify.app/">here</a>{" "}
             to see the deployed website (Firefox only).
             <br></br>
-            <p>
-              Github repo can be found{" "}
-              <a href="https://github.com/jessiemmm/catching-up">here.</a>
-            </p>
           </p>
         />
         <br></br>
