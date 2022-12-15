@@ -31,7 +31,7 @@ function ComputerScience() {
           moreFiles={["/images/screenshots/jrivia1.JPG", "/images/screenshots/jrivia2.JPG"]}
           links=<p className="links">
             See the deployed website{" "}
-            <a href="https://jrivia.herokuapp.com/">here!</a>
+            <a href="https://jrivia.netlify.app/">here!</a>
             <br></br>
             You can also check out the{" "}
             <a href="https://github.com/jessiemmm/jrivia">main repo</a> and{" "}
